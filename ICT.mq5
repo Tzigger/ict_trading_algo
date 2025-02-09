@@ -11,10 +11,10 @@ CTrade Trade;
 MqlRates rates[];
 
 // Inputs
-input int      SwingPeriod = 50;        // Swing period for Order Block detection
-input int      FVG_Bars = 3;            // Bars to look back for FVG
+input int      SwingPeriod = 55;        // Swing period for Order Block detection
+input int      FVG_Bars =11;            // Bars to look back for FVG
 input double   RiskPercentage = 1.0;    // Risk percentage per trade (0.1-5%)
-input double   RiskRewardRatio = 2.0;   // Risk:Reward ratio (1:2)
+input double   RiskRewardRatio = 4.4;   // Risk:Reward ratio (1:2)
 input bool     UseLiquidityPool = true; // Use liquidity pool (MSS) logic
 
 // Global variables
